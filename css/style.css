@@ -13,6 +13,10 @@ a {
 header {
   background: #fff;
   padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .header-container {
@@ -20,7 +24,11 @@ header {
   justify-content: space-between;
 }
 
-nav a {
+.logo {
+  color: #777;
+}
+
+.nav-btn {
   display: inline-block;
   color: #ffffff;
   font-size: 12px;
@@ -164,6 +172,9 @@ tr:first-child {
 /* sns_css */
 .sns {
   background: #e3f2fb;
+}
+
+.sns-container {
   padding: 200px 0;
   text-align: center;
 }
@@ -177,6 +188,8 @@ tr:first-child {
   font-size: 40px;
   background: #e3f2fb;
   transition: 0.5s;
+  outline: none;
+  margin: 0;
 }
 
 .sns-icon:hover {
